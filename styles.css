@@ -1,0 +1,15 @@
+.blocks {
+    display: grid;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: 80px 80px 80px;
+    grid-gap: 15px;
+}
+.blocks .block {
+    background: #000;
+    color: #FFF;
+    font-size: 24px;
+    line-height: 80px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
